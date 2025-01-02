@@ -5,6 +5,6 @@ class StringCalculator
   end
 
   def extract_numbers_from_string(string_numbers)
-    string_numbers.split(/\b/)
+    string_numbers.scan(/\d+/)
   end
 end
